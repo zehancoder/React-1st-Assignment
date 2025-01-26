@@ -1,3 +1,5 @@
+import SecTwo from "./SectionTwo";
+
 function HomeItem() {
     return (
         <>
@@ -19,6 +21,7 @@ function HomeItem() {
                     <img className="mx-auto mt-7 w-4/5" src="Logos.png" alt="" />
                 </div>
             </section>
+            <SecTwo/>
         </>
     )
 }
