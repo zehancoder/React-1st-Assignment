@@ -13,6 +13,12 @@ function HomeItem() {
                 </div>
             </div>
             </div>
+            <section className="p-3 bg-[#07292F]">
+                <div className="max-w-7xl mx-auto md:py-16 lg:py-12  text-center">
+                    <h1 className="md:text-xl uppercase text-lg monserrat text-[#0FF1F6] font-light">our trusted partners</h1>
+                    <img className="mx-auto mt-7 w-4/5" src="Logos.png" alt="" />
+                </div>
+            </section>
         </>
     )
 }
