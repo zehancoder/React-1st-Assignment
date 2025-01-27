@@ -9,3 +9,7 @@
 .monserrat{
   font-family: "Montserrat", serif;
 }
+.arrow-btn{
+  top: 50%;
+  transform: translate(-50%);
+}
