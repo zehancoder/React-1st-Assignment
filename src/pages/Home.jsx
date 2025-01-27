@@ -3,6 +3,7 @@ import SlideFunc from "./SliderSec";
 import SecTwo from "./SectionTwo";
 import {Button, Slide} from "@mui/material"
 import SecFive from "./SectionFive";
+import SecSix from "./SectionSix";
 function HomeItem() {
     return (
         <>
@@ -38,6 +39,9 @@ function HomeItem() {
 
             {/* Section five added */}
             <SecFive/>
+
+            {/* Section six added */}
+            <SecSix/>
         </>
     )
 }
