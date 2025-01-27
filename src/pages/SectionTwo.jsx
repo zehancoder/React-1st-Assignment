@@ -25,10 +25,10 @@ function SecTwo() {
   return (
     <>
       <div className="px-3 lg:py-18 md:py-14 py-7">
-        <div className="max-w-[1400px] flex items-center justify-between mx-auto">
+        <div className="max-w-[1400px] grid grid-cols-12  mx-auto">
             {data.map((val) => (
-                <div key={val.id} className="col-span-12 lg- col-span-4 p-3">
-                    <img className="w-24" src= {val.images} alt="" />
+                <div key={val.id} className="col-span-12 lg:col-span-4 p-3 md:text-start text-center">
+                    <img className="w-24 mx-auto md:mx-0" src= {val.images} alt="" />
                     <h1 className="md:text-3xl mt-5 text-xl text-white font-medium monserrat">{val.hedings}</h1>
                     <p className="md:text-2xl font-extralight work-sens mt-5 text-xl max-w-96 text-white">{val.paras}</p>
                 </div>

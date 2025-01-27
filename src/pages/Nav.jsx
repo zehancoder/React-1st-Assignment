@@ -21,7 +21,7 @@ function Navber() {
                 <nav className="md:text-lg text-base text-white work-sens hidden lg:inline">
                     {
                     navItem.map((val) => (
-                        <Link to= {val} href="#" className="cursor-pointer px-4 py-2 transition duration-300 hover:bg-gray-700 rounded-md">{val}</Link>
+                        <Link key={val} to= {val} href="#" className="cursor-pointer px-4 py-2 transition duration-300 hover:bg-gray-700 rounded-md">{val}</Link>
                     ))
                     }
                     {/* <a href="#" className="cursor-pointer px-4 py-2 transition duration-300 hover:bg-gray-700 rounded-md">Solutions</a> */}
@@ -46,7 +46,7 @@ function Navber() {
                     
                     {
                     navItem.map((val) => (
-                        <Link to={val}  className="cursor-pointer px-4 py-2 transition hover:text-gray-700 block duration-300 hover:bg-white rounded-md">{val}</Link>
+                        <Link key={val} to={val}  className="cursor-pointer px-4 py-2 transition hover:text-gray-700 block duration-300 hover:bg-white rounded-md">{val}</Link>
                     ))
                     }
                     {/* <a href="#" className="cursor-pointer px-4 py-2 transition duration-300 hover:bg-gray-700 rounded-md">Solutions</a> */}
